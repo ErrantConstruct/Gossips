@@ -28,6 +28,7 @@
 		E6C9BCE01D3AEC6400486934 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E6C9BCE71D3AECB000486934 /* Gossip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gossip.cpp; sourceTree = "<group>"; };
 		E6C9BCE81D3AECB000486934 /* Gossip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Gossip.hpp; sourceTree = "<group>"; };
+		E6C9BCEB1D3AF86500486934 /* noun.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = noun.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				E6C9BCE01D3AEC6400486934 /* main.cpp */,
 				E6C9BCE71D3AECB000486934 /* Gossip.cpp */,
 				E6C9BCE81D3AECB000486934 /* Gossip.hpp */,
+				E6C9BCEB1D3AF86500486934 /* noun.hpp */,
 			);
 			path = Gossips;
 			sourceTree = "<group>";
