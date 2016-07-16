@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E6C9BCE11D3AEC6400486934 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C9BCE01D3AEC6400486934 /* main.cpp */; };
+		E6C9BCE91D3AECB000486934 /* Gossip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C9BCE71D3AECB000486934 /* Gossip.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E6C9BCDD1D3AEC6400486934 /* Gossips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Gossips; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C9BCE01D3AEC6400486934 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E6C9BCE71D3AECB000486934 /* Gossip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gossip.cpp; sourceTree = "<group>"; };
+		E6C9BCE81D3AECB000486934 /* Gossip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Gossip.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E6C9BCE01D3AEC6400486934 /* main.cpp */,
+				E6C9BCE71D3AECB000486934 /* Gossip.cpp */,
+				E6C9BCE81D3AECB000486934 /* Gossip.hpp */,
 			);
 			path = Gossips;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C9BCE91D3AECB000486934 /* Gossip.cpp in Sources */,
 				E6C9BCE11D3AEC6400486934 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
