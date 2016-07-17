@@ -6,37 +6,14 @@
 //  Copyright © 2016 Matt Postema. All rights reserved.
 //
 
-#ifndef Gossip_hpp
-#define Gossip_hpp
+#ifndef gossip_hpp
+#define gossip_hpp
 
 #include <string>
 
-enum noun
-{
-    dog,
-    cat,
-    mayor,
-    priest,
-    woman
-};
-
-enum verb
-{
-    runs,
-    sits,
-    eats,
-    reads,
-    feeds
-};
-
-enum prepositional_phrase
-{
-    around_the_table,
-    on_the_box,
-    at_the_diner,
-    in_the_library,
-    in_the_park
-};
+#include "noun.hpp"
+#include "verb.hpp"
+#include "prepositional_phrase.hpp"
 
 /*
  The dog runs around the table
@@ -45,15 +22,13 @@ enum prepositional_phrase
  The priest reads in the library
  The woman feeds ducks in the park
  */
-class Gossip {
+class gossip {
     noun subject;
     verb predicate;
     prepositional_phrase object;
     
 public:
-    std::string toString();
+    friend std::ostream& operator<<(std::ostream&, const gossip&);
 };
 
-
-
-#endif /* Gossip_hpp */
+#endif /* gossip_hpp */

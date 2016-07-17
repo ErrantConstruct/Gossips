@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E6C9BCE11D3AEC6400486934 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C9BCE01D3AEC6400486934 /* main.cpp */; };
-		E6C9BCE91D3AECB000486934 /* Gossip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C9BCE71D3AECB000486934 /* Gossip.cpp */; };
+		E6C9BCE91D3AECB000486934 /* gossip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C9BCE71D3AECB000486934 /* gossip.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		E6C9BCDD1D3AEC6400486934 /* Gossips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Gossips; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C9BCE01D3AEC6400486934 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E6C9BCE71D3AECB000486934 /* Gossip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gossip.cpp; sourceTree = "<group>"; };
-		E6C9BCE81D3AECB000486934 /* Gossip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Gossip.hpp; sourceTree = "<group>"; };
+		E6C9BCE71D3AECB000486934 /* gossip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gossip.cpp; sourceTree = "<group>"; };
+		E6C9BCE81D3AECB000486934 /* gossip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gossip.hpp; sourceTree = "<group>"; };
 		E6C9BCEB1D3AF86500486934 /* noun.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = noun.hpp; sourceTree = "<group>"; };
 		E6C9BCEF1D3AFCAA00486934 /* verb.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = verb.hpp; sourceTree = "<group>"; };
 		E6C9BCF21D3AFE2D00486934 /* prepositional_phrase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = prepositional_phrase.hpp; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				E6C9BCE01D3AEC6400486934 /* main.cpp */,
-				E6C9BCE71D3AECB000486934 /* Gossip.cpp */,
-				E6C9BCE81D3AECB000486934 /* Gossip.hpp */,
+				E6C9BCE71D3AECB000486934 /* gossip.cpp */,
+				E6C9BCE81D3AECB000486934 /* gossip.hpp */,
 				E6C9BCEB1D3AF86500486934 /* noun.hpp */,
 				E6C9BCEF1D3AFCAA00486934 /* verb.hpp */,
 				E6C9BCF21D3AFE2D00486934 /* prepositional_phrase.hpp */,
@@ -129,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6C9BCE91D3AECB000486934 /* Gossip.cpp in Sources */,
+				E6C9BCE91D3AECB000486934 /* gossip.cpp in Sources */,
 				E6C9BCE11D3AEC6400486934 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
