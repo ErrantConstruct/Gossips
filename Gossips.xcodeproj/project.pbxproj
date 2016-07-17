@@ -29,6 +29,8 @@
 		E6C9BCE71D3AECB000486934 /* Gossip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gossip.cpp; sourceTree = "<group>"; };
 		E6C9BCE81D3AECB000486934 /* Gossip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Gossip.hpp; sourceTree = "<group>"; };
 		E6C9BCEB1D3AF86500486934 /* noun.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = noun.hpp; sourceTree = "<group>"; };
+		E6C9BCEF1D3AFCAA00486934 /* verb.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = verb.hpp; sourceTree = "<group>"; };
+		E6C9BCF21D3AFE2D00486934 /* prepositional_phrase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = prepositional_phrase.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,8 @@
 				E6C9BCE71D3AECB000486934 /* Gossip.cpp */,
 				E6C9BCE81D3AECB000486934 /* Gossip.hpp */,
 				E6C9BCEB1D3AF86500486934 /* noun.hpp */,
+				E6C9BCEF1D3AFCAA00486934 /* verb.hpp */,
+				E6C9BCF21D3AFE2D00486934 /* prepositional_phrase.hpp */,
 			);
 			path = Gossips;
 			sourceTree = "<group>";
