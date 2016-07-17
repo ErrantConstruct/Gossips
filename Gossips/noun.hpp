@@ -20,9 +20,9 @@ enum noun
     woman
 };
 
-std::ostream& operator<<(std::ostream& os, noun c)
+std::ostream& operator<<(std::ostream& os, noun n)
 {
-    switch(c)
+    switch(n)
     {
         case dog   : os << "dog";    break;
         case cat   : os << "cat"; break;
