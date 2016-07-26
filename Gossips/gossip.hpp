@@ -9,8 +9,6 @@
 #ifndef gossip_hpp
 #define gossip_hpp
 
-#include <string>
-
 #include "noun.hpp"
 #include "verb.hpp"
 #include "prepositional_phrase.hpp"
@@ -26,6 +24,7 @@ struct gossip {
     noun subject;
     verb predicate;
     prepositional_phrase object;
+    friend std::ostream& operator<<(std::ostream &os, const gossip &g);
 };
 
 #endif /* gossip_hpp */

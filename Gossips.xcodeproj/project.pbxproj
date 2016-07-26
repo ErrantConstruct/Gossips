@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E605C9B91D47DCEC00F26811 /* testGossip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E605C9B81D47DCEC00F26811 /* testGossip.cpp */; };
+		E605C9BA1D47E1E200F26811 /* gossip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C9BCE71D3AECB000486934 /* gossip.cpp */; };
+		E618546C1D47F0C300895E49 /* noun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E618546B1D47F0C300895E49 /* noun.cpp */; };
+		E618546E1D47F0E100895E49 /* verb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E618546D1D47F0E100895E49 /* verb.cpp */; };
+		E61854701D47F14800895E49 /* prepositional_phrase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E618546F1D47F14800895E49 /* prepositional_phrase.cpp */; };
+		E61854711D47F19400895E49 /* prepositional_phrase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E618546F1D47F14800895E49 /* prepositional_phrase.cpp */; };
+		E61854721D47F19800895E49 /* verb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E618546D1D47F0E100895E49 /* verb.cpp */; };
+		E61854731D47F19A00895E49 /* noun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E618546B1D47F0C300895E49 /* noun.cpp */; };
 		E6C9BCE11D3AEC6400486934 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C9BCE01D3AEC6400486934 /* main.cpp */; };
 		E6C9BCE91D3AECB000486934 /* gossip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C9BCE71D3AECB000486934 /* gossip.cpp */; };
 		E6E0E55D1D47D8F600C61EAD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E0E55C1D47D8F600C61EAD /* main.cpp */; };
@@ -34,6 +42,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E605C9B81D47DCEC00F26811 /* testGossip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testGossip.cpp; sourceTree = "<group>"; };
+		E618546B1D47F0C300895E49 /* noun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = noun.cpp; sourceTree = "<group>"; };
+		E618546D1D47F0E100895E49 /* verb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = verb.cpp; sourceTree = "<group>"; };
+		E618546F1D47F14800895E49 /* prepositional_phrase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prepositional_phrase.cpp; sourceTree = "<group>"; };
 		E6C9BCDD1D3AEC6400486934 /* Gossips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Gossips; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C9BCE01D3AEC6400486934 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E6C9BCE71D3AECB000486934 /* gossip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gossip.cpp; sourceTree = "<group>"; };
@@ -89,8 +101,11 @@
 				E6C9BCE71D3AECB000486934 /* gossip.cpp */,
 				E6C9BCE81D3AECB000486934 /* gossip.hpp */,
 				E6C9BCEB1D3AF86500486934 /* noun.hpp */,
+				E618546B1D47F0C300895E49 /* noun.cpp */,
 				E6C9BCEF1D3AFCAA00486934 /* verb.hpp */,
+				E618546D1D47F0E100895E49 /* verb.cpp */,
 				E6C9BCF21D3AFE2D00486934 /* prepositional_phrase.hpp */,
+				E618546F1D47F14800895E49 /* prepositional_phrase.cpp */,
 			);
 			path = Gossips;
 			sourceTree = "<group>";
@@ -99,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				E6E0E55C1D47D8F600C61EAD /* main.cpp */,
+				E605C9B81D47DCEC00F26811 /* testGossip.cpp */,
 				E6E0E5611D47D90B00C61EAD /* catch.hpp */,
 			);
 			path = GossipsTest;
@@ -181,8 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E618546E1D47F0E100895E49 /* verb.cpp in Sources */,
 				E6C9BCE91D3AECB000486934 /* gossip.cpp in Sources */,
 				E6C9BCE11D3AEC6400486934 /* main.cpp in Sources */,
+				E61854701D47F14800895E49 /* prepositional_phrase.cpp in Sources */,
+				E618546C1D47F0C300895E49 /* noun.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61854711D47F19400895E49 /* prepositional_phrase.cpp in Sources */,
+				E605C9B91D47DCEC00F26811 /* testGossip.cpp in Sources */,
 				E6E0E55D1D47D8F600C61EAD /* main.cpp in Sources */,
+				E61854721D47F19800895E49 /* verb.cpp in Sources */,
+				E605C9BA1D47E1E200F26811 /* gossip.cpp in Sources */,
+				E61854731D47F19A00895E49 /* noun.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +358,7 @@
 				E6E0E5601D47D8F600C61EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

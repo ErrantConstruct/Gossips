@@ -20,4 +20,6 @@ enum verb
     feeds
 };
 
+std::ostream& operator<<(std::ostream& os, const verb &v);
+
 #endif /* verb_hpp */

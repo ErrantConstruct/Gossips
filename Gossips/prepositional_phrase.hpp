@@ -20,4 +20,6 @@ enum prepositional_phrase
     in_the_park
 };
 
+std::ostream& operator<<(std::ostream& os, const prepositional_phrase &p);
+
 #endif /* prepositional_phrase_hpp */

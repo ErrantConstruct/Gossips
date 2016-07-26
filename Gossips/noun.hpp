@@ -19,4 +19,6 @@ enum noun {
     woman
 };
 
+std::ostream &operator<<(std::ostream &os, const noun &n);
+
 #endif /* noun_hpp */

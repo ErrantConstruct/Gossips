@@ -12,5 +12,11 @@
 
 int main(int argc, const char * argv[]) {
 
+    gossip test;
+    test.subject = noun::cat;
+    test.predicate = verb::eats;
+    test.object = prepositional_phrase::around_the_table;
+    
+    std::cout << test << std::endl;
     return 0;
 }
