@@ -32,9 +32,4 @@ TEST_CASE("Gossip elements are assigned", "[gossip]") {
         test_gossip.object = prepositional_phrase::in_the_park;
         CHECK(test_gossip.object == prepositional_phrase::in_the_park);
     }
-    
-    test_gossip.subject = noun::dog;
-    test_gossip.predicate = verb::eats;
-    test_gossip.object = prepositional_phrase::in_the_park;
-    std::cout << &test_gossip << std::endl;
 }
