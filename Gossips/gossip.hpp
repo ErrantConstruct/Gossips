@@ -22,13 +22,10 @@
  The priest reads in the library
  The woman feeds ducks in the park
  */
-class gossip {
+struct gossip {
     noun subject;
     verb predicate;
     prepositional_phrase object;
-    
-public:
-    friend std::ostream& operator<<(std::ostream&, const gossip&);
 };
 
 #endif /* gossip_hpp */
