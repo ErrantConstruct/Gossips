@@ -3,3 +3,17 @@
 //
 
 #include "agent.h"
+
+//TODO: method stub
+gossip agent::speak()
+{
+    gossip value;
+    
+    return value;
+}
+
+//TODO: method stub
+void listen(gossip new_gossip)
+{
+    
+}
