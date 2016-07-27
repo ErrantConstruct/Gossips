@@ -2,7 +2,7 @@
 // Created by Matt Postema on 7/27/16.
 //
 
-#include "agent.h"
+#include "agent.hpp"
 
 //TODO: method stub
 gossip agent::speak()

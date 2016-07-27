@@ -14,7 +14,7 @@
 #include "verb.hpp"
 #include "prepositional_phrase.hpp"
 
-TEST_CASE("Gossip elements are assigned", "[gossip]") {
+TEST_CASE("Gossip elements are assigned") {
     gossip test_gossip;
     
     SECTION("Setting subject") {

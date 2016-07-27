@@ -11,7 +11,7 @@
 #include "gossip.hpp"
 
 struct agent {
-    //maps the gossip to the agent it was received from
+    //maps the gossip to the agent it was received from, will only allow one gossip per agent
     std::map<int, gossip> learned_gossips;
     std::string name;
     int id;
