@@ -17,8 +17,8 @@ struct agent {
     int id;
 
     //produces a new gossip object
-    gossip* speak();
-    void listen(gossip &new_gossip);
+    gossip speak();
+    void listen(gossip new_gossip);
 };
 
 

@@ -13,7 +13,7 @@ gossip agent::speak()
 }
 
 //TODO: method stub
-void listen(gossip new_gossip)
+void agent::listen(gossip new_gossip)
 {
     
 }

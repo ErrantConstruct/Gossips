@@ -104,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				E6C9BCE01D3AEC6400486934 /* main.cpp */,
-				E6BE77431D49258B002CA3EC /* agent.cpp */,
 				E6BE77441D49258B002CA3EC /* agent.h */,
+				E6BE77431D49258B002CA3EC /* agent.cpp */,
 				E6C9BCE71D3AECB000486934 /* gossip.cpp */,
 				E6C9BCE81D3AECB000486934 /* gossip.hpp */,
 				E6C9BCEB1D3AF86500486934 /* noun.hpp */,
