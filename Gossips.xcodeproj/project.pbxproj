@@ -82,6 +82,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6441DD11D4A6BD00046C9F9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E6BE77441D49258B002CA3EC /* agent.hpp */,
+				E6BE77431D49258B002CA3EC /* agent.cpp */,
+				E6C9BCE81D3AECB000486934 /* gossip.hpp */,
+				E6C9BCE71D3AECB000486934 /* gossip.cpp */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E6441DD21D4A6BE00046C9F9 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9BCEB1D3AF86500486934 /* noun.hpp */,
+				E618546B1D47F0C300895E49 /* noun.cpp */,
+				E6C9BCEF1D3AFCAA00486934 /* verb.hpp */,
+				E618546D1D47F0E100895E49 /* verb.cpp */,
+				E6C9BCF21D3AFE2D00486934 /* prepositional_phrase.hpp */,
+				E618546F1D47F14800895E49 /* prepositional_phrase.cpp */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
 		E6C9BCD41D3AEC6400486934 = {
 			isa = PBXGroup;
 			children = (
@@ -104,16 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				E6C9BCE01D3AEC6400486934 /* main.cpp */,
-				E6BE77441D49258B002CA3EC /* agent.hpp */,
-				E6BE77431D49258B002CA3EC /* agent.cpp */,
-				E6C9BCE71D3AECB000486934 /* gossip.cpp */,
-				E6C9BCE81D3AECB000486934 /* gossip.hpp */,
-				E6C9BCEB1D3AF86500486934 /* noun.hpp */,
-				E618546B1D47F0C300895E49 /* noun.cpp */,
-				E6C9BCEF1D3AFCAA00486934 /* verb.hpp */,
-				E618546D1D47F0E100895E49 /* verb.cpp */,
-				E6C9BCF21D3AFE2D00486934 /* prepositional_phrase.hpp */,
-				E618546F1D47F14800895E49 /* prepositional_phrase.cpp */,
+				E6441DD11D4A6BD00046C9F9 /* model */,
+				E6441DD21D4A6BE00046C9F9 /* domain */,
 			);
 			path = Gossips;
 			sourceTree = "<group>";
